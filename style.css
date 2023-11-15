@@ -1,0 +1,60 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#FORM-ADD-TASK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#FORM-ADD-TASK label {
+    font-size: 32px;
+}
+
+#FORM-ADD-TASK input {
+    height: 30px;
+    margin: 0px 10px;
+}
+
+#FORM-ADD-TASK button {
+    height: 30px;
+    padding: 0px 10px;
+}
+
+#TASKS-SECTION {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.single-task-container {
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.delete-button{    
+    color: white;
+    background-color: brown;
+    border-radius: 7px;
+    border-width: 0px;
+    font-size: 14px;
+    height: 22px;
+    width: 60px;
+}
